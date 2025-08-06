@@ -1,0 +1,37 @@
+
+    /* h1{
+        color:rgb(140, 24, 207);
+    }
+
+    P{
+        color:rgb(222, 208, 16)
+    }
+/* 
+    button {
+        color:rgb(121, 93, 93);
+        background-color: rgb(124, 200, 207);
+    }  */
+    
+    body{
+        background-color: rgb(100,40,78);
+        background-color: #585563
+    } 
+    /* 2.External Style Sheet */
+    button{
+        background-color: blue;
+    }
+
+    *{
+        color: blue;
+    }
+    #headingOne{
+        color: yellow;
+    }
+
+    #headingTwo{
+        color: chocolate;
+    }
+
+    #headingThree{
+        color: magenta;
+    }

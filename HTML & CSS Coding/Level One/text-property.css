@@ -1,0 +1,59 @@
+p{
+    /* TEXT-ALIGN */
+ /* LIFT,RIGHT, & CENTER ALIGN */
+    text-align: start;
+
+    /* --------------------------------- */
+
+    /* Font-faimly
+ Font-faimly : arial
+ Font-faimly : arial,roboto */
+ font-family: Tahoma, Geneva, Verdana, sans-serif;
+
+     /* --------------------------------- */
+
+    /* Unit In CSS
+Absolute
+Pixels(px) : (96px = 1inch);
+font-size : 2px;  */
+    font-size: 25px;
+
+     /* --------------------------------- */    
+
+/* LINE HIGHT */
+    line-height: normal;
+
+     /* --------------------------------- */    
+
+/* TEXT-TRANSFORMATION
+    Text_TransforMATION
+    Upper/lower/Capital/none */
+
+    text-transform: capitalize;
+}
+/* Text Decoration
+Underline/overline/line-through */
+h1{
+    text-align: center;
+    text-decoration: blue dotted underline;
+}
+a{
+    text-decoration: none;
+}
+
+/* Font-Property
+Font-weight : normal/bold/bolder/lighter
+Font-weight : 100-900 */
+
+#h1{
+    font-weight: normal;
+}
+#h2{
+    font-weight: lighter;
+}
+#h3{
+    font-weight: 900;
+}
+
+
+
