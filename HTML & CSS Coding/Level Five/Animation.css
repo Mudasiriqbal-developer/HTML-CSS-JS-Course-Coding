@@ -1,0 +1,43 @@
+div {
+    height: 100px;
+    width: 100px;
+    color: black;
+    background-color: aqua;
+    border: 1px solid black;
+    border-radius: 50px;
+    position: absolute;
+    top: 200px;
+    right: 550px;
+    transform: scale(2);
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: reverse; */
+    animation: colorAnimation 2s ease-in 0s infinite alternate;
+}
+
+
+/* @keyframes colorAnimation {
+    from {
+        left: 0px;
+        background-color: yellow;
+     }
+    to {
+        left: 500px;
+        background-color: blue;
+    }
+} */
+
+@keyframes colorAnimation {
+    0% {
+        left: 0px;
+        background-color: yellow;
+     }
+     50% {
+        background-color: brown;
+     }
+    100% {
+        left: 1000px;
+        background-color: blue;
+    }
+}

@@ -1,0 +1,23 @@
+.loader {
+    width: 200px;
+    height: 200px;
+    border-radius: 120px;
+    border: 10px solid rgb(141, 135, 135);
+    border-top: 10px solid rgb(40, 37, 37);
+    position: absolute;
+    top: 200px;
+    left: 600px;
+    background-image: url("D:\HTML & CSS\HTML,CSS,JS Tutorial\image.jpg");
+    background-size: cover;
+    animation: spin 3s ease-out 0s infinite normal;
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
