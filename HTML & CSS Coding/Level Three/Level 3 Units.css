@@ -1,0 +1,73 @@
+/* Units is css
+Relative.
+
+1. Percentage %Unit */
+
+/* #box1 {
+    height: 300px;
+    width: 300px;
+    background-color: aqua;
+    /* font-size: 20px; */
+    /* font-size: 1rem; */
+/* } */ 
+
+/* #box2 {
+    height: 70%;
+    width: 70%;
+    background-color: blueviolet;
+    /* font-size: 2em; */
+    /* font-size: 2rem; */
+/* } */ 
+
+/* POSITION PROPERTY
+ 1. Static,
+ 2. Relative,
+ 3. Absolute,
+ 4. Fixed. */
+
+ div {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    border: 2px solid black;
+    display: inline-block;
+ }
+
+ #box1 {
+   background-image: url("Mudasir\ Pic.jpg");
+   background-size: cover;
+ }
+
+ #box2 {
+   background-image: url("plate-zig-zig.jpg");
+ }
+
+ body { 
+   background-image: url("Mudasir\ Pic.jpg");
+   background-size: cover ;
+   
+ }
+
+ /* #bo1 {
+    position: static;
+    top: 0;
+    z-index: 1;
+ }
+
+ #box2 {
+    position: fixed;
+    top: 100px;
+    left: 1000px;
+    z-index: -1;
+ }
+
+ #box3 {
+    position: absolute;
+    top: 10px;
+ }
+
+ #box4 {
+    position: fixed;
+    right: 10px;
+    top: 0;
+ } */

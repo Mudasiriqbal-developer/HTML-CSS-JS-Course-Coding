@@ -1,0 +1,14 @@
+div {
+    height: 20px;
+    width: 1000px;
+    background-image: url("Mudasir\ Pic.jpg");
+    background-size: cover;
+    position: fixed;
+    top: 0;
+}
+
+body {
+   /* background-image: url("Mudasir\ Pic.jpg");
+    background-size: cover; */
+    height: 1000px; 
+}
