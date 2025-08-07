@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets practice</title>
+    <style>
+        .para {
+            color: rgb(38, 0, 255);
+        }
+
+        .newClass {
+            background-color: greenyellow ;
+        }
+
+        .font {
+            font-size: 30px;
+        }
+    </style>
+</head>
+<body>
+    <p class="para">This is a sample line</p>
+    <h3>Hi This is a H3</h3>
+    <button>Press Me</button>
+
+    <script>
+        let newBtn = document.createElement("button");
+        newBtn.innerText = "Click Me!";
+        console.log(newBtn);
+
+        let boddy = document.querySelector("body");
+        boddy.append(newBtn);
+
+        newBtn.style.backgroundColor = "red";
+        newBtn.style.color = "white";
+
+        let para = document.querySelector("p");
+        console.log(para);
+        // para.setAttribute("class", "newClass"); //Repalce whole class Attribute.
+        para.classList.add("newClass","font")
+    </script>
+</body>
+</html>
